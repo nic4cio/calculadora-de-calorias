@@ -4,19 +4,19 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
 }
 
 body{
-	background: #282828;
+	background: #3c3a49;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 }
 
 .container{
-	width: 550px;
-	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 35px;
 }
 
 header{
@@ -25,6 +25,19 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+header img {
+	width: 200px;
+	padding: 32px;
+}
+
+@media screen and (min-width: 600px) {
+	.content {
+		justify-self: center;
+		align-self: center;
+		width: 500px;
+	}
 }
 
 .form-group{
@@ -56,7 +69,7 @@ header{
 
 .form-group input:focus,
 .form-group select:focus {
-  border-color: #FF7373;
+  border-color: #e09bf1;
 }
 
 .form-group button {
@@ -97,5 +110,5 @@ header{
 }
 
 .result-content ul li strong {
-  color: #FF7373;
+  color: #ff73f1;
 }
