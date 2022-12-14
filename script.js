@@ -27,7 +27,7 @@ function handleSubmit(event){
 					<div class="result-content">
 						<ul>
 							<li>
-						 		Seu metabolismo basal é de <strong>${tmb}calorias</strong>.
+						 		Seu metabolismo basal é de <strong>${tmb} calorias</strong>.
 							</li>
 							<li>
 								Para manter o seu peso você precisa consumir em média <strong>${maintenance} calorias</strong>
